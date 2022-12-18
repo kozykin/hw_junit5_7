@@ -1,16 +1,10 @@
 package tests;
 
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
-
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
 import pages.MainPage;
 import pages.SearchResultPage;
 import pages.VideoPage;
-import tests.TestBase;
-
 import java.util.stream.Stream;
 
 public class TheFlowTests extends TestBase {
